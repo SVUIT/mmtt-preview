@@ -8144,6 +8144,13 @@ textarea[readonly] {
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
+  padding: 0;
+  list-style: none;
+}
+.social-links .social-item {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
 }
 .social-links .social-link {
   display: flex;
@@ -8160,6 +8167,7 @@ textarea[readonly] {
   background-color: #dee2e6;
   color: #0056b3;
   text-decoration: none;
+  transform: translateY(-2px);
 }
 
 .contact-info {
