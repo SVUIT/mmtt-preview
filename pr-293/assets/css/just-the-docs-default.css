@@ -7906,114 +7906,137 @@ textarea[readonly] {
 }
 
 /* Dark theme with improved contrast */
-.dm-container.dark {
-  background-color: #1a1d23;
-  color: #f8f9fa;
+.dark {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
   /* Form elements in dark mode */
   /* Buttons in dark mode */
   /* Tables in dark mode */
 }
-.dm-container.dark h1, .dm-container.dark h2, .dm-container.dark h3, .dm-container.dark h4, .dm-container.dark h5, .dm-container.dark h6 {
-  color: #ffffff;
+.dark body {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
 }
-.dm-container.dark a {
-  color: #6ea8fe;
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+  color: #ffffff !important;
 }
-.dm-container.dark a:hover, .dm-container.dark a:focus {
-  color: #3d8bfd;
+.dark a {
+  color: #82b1ff !important;
 }
-.dm-container.dark .support a {
-  color: #6ea8fe;
+.dark a:hover, .dark a:focus {
+  color: #448aff !important;
 }
-.dm-container.dark input[type=text],
-.dm-container.dark input[type=email],
-.dm-container.dark input[type=password],
-.dm-container.dark input[type=number],
-.dm-container.dark input[type=tel],
-.dm-container.dark input[type=url],
-.dm-container.dark input[type=search],
-.dm-container.dark input[type=date],
-.dm-container.dark input[type=datetime-local],
-.dm-container.dark input[type=month],
-.dm-container.dark input[type=week],
-.dm-container.dark input[type=time],
-.dm-container.dark select,
-.dm-container.dark textarea {
+.dark .site-footer {
+  background-color: #1e1e1e !important;
+  color: #e0e0e0 !important;
+  border-top: 1px solid #333;
+}
+.dark .site-footer a {
+  color: #82b1ff !important;
+}
+.dark .site-footer a:hover {
+  color: #448aff !important;
+}
+.dark .social-link {
+  background-color: #333 !important;
+  color: #e0e0e0 !important;
+}
+.dark .social-link:hover {
+  background-color: #444 !important;
+  color: #82b1ff !important;
+}
+.dark .support a {
+  color: #82b1ff !important;
+}
+.dark input[type=text],
+.dark input[type=email],
+.dark input[type=password],
+.dark input[type=number],
+.dark input[type=tel],
+.dark input[type=url],
+.dark input[type=search],
+.dark input[type=date],
+.dark input[type=datetime-local],
+.dark input[type=month],
+.dark input[type=week],
+.dark input[type=time],
+.dark select,
+.dark textarea {
   background-color: #2b3035;
   border-color: #495057;
   color: #f8f9fa;
 }
-.dm-container.dark input[type=text]::placeholder,
-.dm-container.dark input[type=email]::placeholder,
-.dm-container.dark input[type=password]::placeholder,
-.dm-container.dark input[type=number]::placeholder,
-.dm-container.dark input[type=tel]::placeholder,
-.dm-container.dark input[type=url]::placeholder,
-.dm-container.dark input[type=search]::placeholder,
-.dm-container.dark input[type=date]::placeholder,
-.dm-container.dark input[type=datetime-local]::placeholder,
-.dm-container.dark input[type=month]::placeholder,
-.dm-container.dark input[type=week]::placeholder,
-.dm-container.dark input[type=time]::placeholder,
-.dm-container.dark select::placeholder,
-.dm-container.dark textarea::placeholder {
+.dark input[type=text]::placeholder,
+.dark input[type=email]::placeholder,
+.dark input[type=password]::placeholder,
+.dark input[type=number]::placeholder,
+.dark input[type=tel]::placeholder,
+.dark input[type=url]::placeholder,
+.dark input[type=search]::placeholder,
+.dark input[type=date]::placeholder,
+.dark input[type=datetime-local]::placeholder,
+.dark input[type=month]::placeholder,
+.dark input[type=week]::placeholder,
+.dark input[type=time]::placeholder,
+.dark select::placeholder,
+.dark textarea::placeholder {
   color: #adb5bd;
 }
-.dm-container.dark input[type=text]:focus,
-.dm-container.dark input[type=email]:focus,
-.dm-container.dark input[type=password]:focus,
-.dm-container.dark input[type=number]:focus,
-.dm-container.dark input[type=tel]:focus,
-.dm-container.dark input[type=url]:focus,
-.dm-container.dark input[type=search]:focus,
-.dm-container.dark input[type=date]:focus,
-.dm-container.dark input[type=datetime-local]:focus,
-.dm-container.dark input[type=month]:focus,
-.dm-container.dark input[type=week]:focus,
-.dm-container.dark input[type=time]:focus,
-.dm-container.dark select:focus,
-.dm-container.dark textarea:focus {
+.dark input[type=text]:focus,
+.dark input[type=email]:focus,
+.dark input[type=password]:focus,
+.dark input[type=number]:focus,
+.dark input[type=tel]:focus,
+.dark input[type=url]:focus,
+.dark input[type=search]:focus,
+.dark input[type=date]:focus,
+.dark input[type=datetime-local]:focus,
+.dark input[type=month]:focus,
+.dark input[type=week]:focus,
+.dark input[type=time]:focus,
+.dark select:focus,
+.dark textarea:focus {
   border-color: #6ea8fe;
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
-.dm-container.dark button,
-.dm-container.dark .button,
-.dm-container.dark .btn,
-.dm-container.dark input[type=submit],
-.dm-container.dark input[type=button],
-.dm-container.dark input[type=reset] {
+.dark button,
+.dark .button,
+.dark .btn,
+.dark input[type=submit],
+.dark input[type=button],
+.dark input[type=reset] {
   background-color: #0d6efd;
   color: #ffffff;
   border-color: #0a58ca;
 }
-.dm-container.dark button:hover, .dm-container.dark button:focus,
-.dm-container.dark .button:hover,
-.dm-container.dark .button:focus,
-.dm-container.dark .btn:hover,
-.dm-container.dark .btn:focus,
-.dm-container.dark input[type=submit]:hover,
-.dm-container.dark input[type=submit]:focus,
-.dm-container.dark input[type=button]:hover,
-.dm-container.dark input[type=button]:focus,
-.dm-container.dark input[type=reset]:hover,
-.dm-container.dark input[type=reset]:focus {
+.dark button:hover, .dark button:focus,
+.dark .button:hover,
+.dark .button:focus,
+.dark .btn:hover,
+.dark .btn:focus,
+.dark input[type=submit]:hover,
+.dark input[type=submit]:focus,
+.dark input[type=button]:hover,
+.dark input[type=button]:focus,
+.dark input[type=reset]:hover,
+.dark input[type=reset]:focus {
   background-color: #0b5ed7;
   border-color: #0a58ca;
 }
-.dm-container.dark table {
+.dark table {
   color: #f8f9fa;
 }
-.dm-container.dark table th, .dm-container.dark table td {
+.dark table th, .dark table td {
   border-color: #495057;
 }
-.dm-container.dark table thead th {
+.dark table thead th {
   background-color: #2b3035;
   border-bottom-color: #495057;
 }
-.dm-container.dark table tbody tr:nth-of-type(odd) {
+.dark table tbody tr:nth-of-type(odd) {
   background-color: rgba(255, 255, 255, 0.05);
 }
-.dm-container.dark table tbody tr:hover {
+.dark table tbody tr:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -8022,10 +8045,17 @@ textarea[readonly] {
   position: absolute;
 }
 
+.dm-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  /* Hide the actual checkbox */
+}
 .dm-container .checkbox-label {
   background-color: #44434d;
-  width: 50px;
-  height: 26px;
+  width: 60px;
+  height: 30px;
   border-radius: 50px;
   position: relative;
   padding: 5px;
@@ -8033,31 +8063,48 @@ textarea[readonly] {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
 }
-
-.dm-container .fa-moon {
+.dm-container .checkbox-label .fa-moon {
   color: #fff200;
-  font-size: 15px;
+  font-size: 16px;
+  margin-left: 5px;
 }
-
-.dm-container .fa-sun {
+.dm-container .checkbox-label .fa-sun {
   color: #f39c12;
-  font-size: 15px;
+  font-size: 16px;
+  margin-right: 5px;
 }
-
 .dm-container .checkbox-label .ball {
   background-color: #fff;
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   position: absolute;
-  left: 2px;
-  top: 2px;
+  left: 3px;
+  top: 3px;
   border-radius: 50%;
-  transition: transform 0.2s linear;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
-
+.dm-container .checkbox-label:hover {
+  background-color: #55545e;
+}
+.dm-container .checkbox:checked + .checkbox-label {
+  background-color: #6ea8fe;
+}
 .dm-container .checkbox:checked + .checkbox-label .ball {
-  transform: translateX(24px);
+  transform: translateX(30px);
+  background-color: #ffffff;
+}
+.dm-container .checkbox:checked + .checkbox-label:hover {
+  background-color: #5d8ff7;
+}
+.dm-container .checkbox {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 
 .aux-nav .aux-nav-list {
